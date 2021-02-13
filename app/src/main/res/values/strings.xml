@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+      <string-array name="aption">
+          
+          <item>Popular</item>
+          <item>Newest</item>
+          <item>For You</item>
+          <item>Recommend</item>
+      </string-array>
+
+
+    <string-array name="heritage">
+
+       <item>Piramid</item>
+        <item>Taj Mahal</item>
+        <item>Amajan Tree</item>
+        <item>Baitul Mukaram</item>
+
+    </string-array>
+
+
+    <string-array name="country">
+
+        <item>Egypt.$120000</item>
+        <item>India.$1000</item>
+        <item>South Africa.$10000</item>
+        <item>Bangladesh.$120</item>
+
+    </string-array>
+
+
+
+    <string-array name="listheritage">
+
+        <item>Near The Istabult</item>
+        <item>Capital City</item>
+        <item>Mount Hill</item>
+
+    </string-array>
+
+
+    <string-array name="money">
+
+        <item>Usa $18</item>
+        <item>Usa $30</item>
+        <item>Usa $25</item>
+
+    </string-array>
+
+
+
+
+
+
+
+
+
+</resources>

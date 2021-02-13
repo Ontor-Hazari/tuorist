@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="100dp">
+
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       >
+
+
+       <ImageView
+           android:layout_width="100dp"
+           android:layout_height="100dp"
+           android:id="@+id/firstimage"
+           android:src="@drawable/ic_istanbul"
+           />
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:layout_marginTop="30dp"
+         android:layout_marginLeft="10dp"
+         >
+
+         <TextView
+
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Near The Istabult"
+             android:id="@+id/placeid"
+             android:textSize="20sp"
+             />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Usa $18"
+             android:id="@+id/monyeid"
+             />
+
+     </LinearLayout>
+
+
+
+
+   </LinearLayout>
+</LinearLayout>
