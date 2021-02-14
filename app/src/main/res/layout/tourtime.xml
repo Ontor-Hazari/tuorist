@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="140dp"
+    android:layout_height="wrap_content"
+    >
+
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:padding="8dp"
+         android:background="@drawable/textback"
+         >
+
+         <TextView
+             android:id="@+id/tuor_time"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:fontFamily="@font/alike_angular"
+             android:text="Day1 6.00Am"
+             android:textSize="12sp" />
+
+         <TextView
+             android:id="@+id/tuor_place"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:fontFamily="@font/capriola"
+             android:text="Department"
+             android:textSize="18sp" />
+
+
+     </LinearLayout>
+
+
+    <ImageView
+        android:layout_marginTop="15dp"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/trigonal"
+        android:src="@drawable/ic_trigonal" />
+
+</LinearLayout>
